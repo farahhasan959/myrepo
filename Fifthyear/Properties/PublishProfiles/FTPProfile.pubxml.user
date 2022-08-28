@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAF3BiSxOpQEGrmI+ABbshPwAAAAACAAAAAAAQZgAAAAEAACAAAAATl3UK0C9HAm4blYQpRXPBs6YcEZj3+iaj/uDt5a9F0wAAAAAOgAAAAAIAACAAAABdvRMd5+paPJmBGicFcmtuv9PcUwRfjDrlA2xojomHOCAAAAAvrynkzdjEJUC06D/BJy/mzZ0I41d1AQ4isdJTWZr6A0AAAADXprrkdLWEgFlPENvBkv9xwWVfrD57WLb/ZiScE+JOtXUqVBWjNFhYxHqCQwMjflQ0j4dRR4hPsbjlQB/j64Vj</EncryptedPassword>
+    <_PublishTargetUrl>ftp://win8032.site4now.net/site1</_PublishTargetUrl>
+    <History>True|2022-08-13T00:17:51.0685650Z;False|2022-08-12T17:16:46.6091466-07:00;True|2022-08-12T17:12:06.2579382-07:00;False|2022-08-12T17:10:39.4239935-07:00;True|2022-08-12T12:43:26.1489821-07:00;True|2022-08-08T16:28:15.6629846-07:00;False|2022-08-08T16:27:04.5918274-07:00;True|2022-08-08T16:22:31.1422373-07:00;False|2022-08-08T16:21:15.4039006-07:00;True|2022-08-08T13:57:06.3626853-07:00;True|2022-08-08T13:52:50.9739874-07:00;True|2022-08-07T19:47:32.4555501-07:00;False|2022-08-07T19:46:24.2007998-07:00;True|2022-08-07T19:42:10.9614255-07:00;False|2022-08-07T19:40:39.0609345-07:00;True|2022-08-07T19:34:11.3533434-07:00;False|2022-08-07T19:33:04.5133982-07:00;True|2022-08-07T19:27:01.0483404-07:00;False|2022-08-07T19:24:32.0859917-07:00;False|2022-08-07T14:31:48.9070879-07:00;False|2022-08-07T14:30:44.1019475-07:00;False|2022-08-07T14:23:07.0811916-07:00;True|2022-08-07T13:35:59.0514779-07:00;False|2022-08-07T13:34:29.8095411-07:00;False|2022-08-07T13:33:19.5013160-07:00;True|2022-08-07T13:22:45.1959184-07:00;False|2022-08-07T13:21:32.6096875-07:00;True|2022-08-07T13:09:31.5846423-07:00;False|2022-08-07T13:04:41.8759395-07:00;True|2022-08-07T12:38:34.7010115-07:00;False|2022-08-07T12:36:05.6760477-07:00;False|2022-08-07T12:33:54.2859510-07:00;True|2022-08-07T01:53:01.2617745-07:00;False|2022-08-07T00:54:59.1315227-07:00;True|2022-08-07T00:34:16.9076447-07:00;False|2022-08-07T00:32:21.5085934-07:00;True|2022-08-07T00:27:12.6257811-07:00;True|2022-08-05T12:27:18.1110612-07:00;True|2022-08-04T20:37:24.3239104-07:00;False|2022-08-04T19:59:41.2875309-07:00;True|2022-08-04T19:44:14.6024771-07:00;True|2022-08-04T17:32:22.0065896-07:00;True|2022-08-04T17:26:29.6560374-07:00;True|2022-08-04T17:11:53.7763752-07:00;False|2022-08-04T17:11:02.2118103-07:00;True|2022-08-04T17:06:27.9011022-07:00;False|2022-08-04T17:05:25.0260237-07:00;False|2022-08-04T17:04:25.9338861-07:00;True|2022-08-04T17:00:54.7568732-07:00;False|2022-08-04T16:59:47.5252399-07:00;True|2022-08-04T16:54:24.0086412-07:00;True|2022-08-04T16:40:23.0730806-07:00;False|2022-08-04T16:38:53.9832206-07:00;True|2022-08-04T16:32:51.2709787-07:00;False|2022-08-04T16:31:44.5934301-07:00;True|2022-08-04T16:16:44.7699332-07:00;True|2022-07-30T20:28:23.9956966-07:00;True|2022-07-27T16:26:23.6828205-07:00;True|2022-07-27T15:25:02.9242109-07:00;True|2022-07-27T13:39:00.8176293-07:00;True|2022-07-23T02:07:40.4842916-07:00;True|2022-07-22T00:00:08.9825224-07:00;True|2022-07-20T00:05:26.8354854-07:00;True|2022-07-19T20:43:30.9627872-07:00;False|2022-07-19T20:41:16.3563054-07:00;False|2022-07-19T20:40:40.0120125-07:00;True|2022-07-19T18:09:28.7346226-07:00;False|2022-07-19T18:08:23.3768825-07:00;False|2022-07-19T18:08:16.8761047-07:00;False|2022-07-19T18:07:47.9864471-07:00;True|2022-07-19T18:03:42.3129288-07:00;False|2022-07-19T18:02:11.5772477-07:00;True|2022-07-19T17:06:26.5687232-07:00;False|2022-07-19T17:05:20.5056991-07:00;True|2022-07-19T16:43:36.5301895-07:00;True|2022-07-19T15:41:03.4136430-07:00;True|2022-07-18T21:55:09.8334851-07:00;True|2022-07-18T19:25:11.6923264-07:00;True|2022-07-18T16:04:18.0212520-07:00;False|2022-07-18T16:02:42.3084304-07:00;True|2022-07-18T13:47:14.4437142-07:00;True|2022-07-16T01:11:29.5370757-07:00;False|2022-07-16T01:10:16.1873312-07:00;False|2022-07-16T01:08:15.8668206-07:00;True|2022-07-16T00:39:21.5839922-07:00;False|2022-07-16T00:37:55.4178738-07:00;False|2022-07-16T00:36:58.9888814-07:00;True|2022-07-12T23:09:42.1091325-07:00;False|2022-07-12T23:08:32.2685117-07:00;False|2022-07-12T23:07:04.2123126-07:00;False|2022-07-12T23:06:33.7556333-07:00;False|2022-07-12T23:06:03.5123751-07:00;True|2022-07-12T22:47:02.5477880-07:00;False|2022-07-12T22:46:02.2690834-07:00;False|2022-07-12T22:45:57.8429717-07:00;True|2022-07-12T22:34:31.8792856-07:00;True|2022-07-12T22:31:54.5558353-07:00;False|2022-07-12T22:30:41.1920350-07:00;True|2022-07-12T22:08:33.8583106-07:00;False|2022-07-12T22:07:21.9671324-07:00;False|2022-07-12T22:05:31.8876427-07:00;True|2022-07-12T21:53:51.9098888-07:00;False|2022-07-12T21:52:32.4268007-07:00;True|2022-07-11T19:45:21.1027095-07:00;True|2022-07-10T16:59:22.2967795-07:00;False|2022-07-10T16:56:14.0243779-07:00;True|2022-07-08T20:13:33.3524486-07:00;False|2022-07-08T16:24:33.4729570-07:00;True|2022-07-08T01:48:31.3819807-07:00;True|2022-07-03T03:49:59.9879694-07:00;True|2022-07-03T00:21:09.4999820-07:00;True|2022-07-01T17:30:16.1831320-07:00;False|2022-07-01T17:28:50.2484548-07:00;True|2022-07-01T17:22:47.3897184-07:00;True|2022-07-01T16:54:30.9238286-07:00;False|2022-07-01T16:52:58.7785539-07:00;True|2022-07-01T16:22:48.7947864-07:00;False|2022-07-01T16:21:25.0480014-07:00;True|2022-07-01T16:18:46.4662215-07:00;False|2022-07-01T16:16:50.1317164-07:00;True|2022-07-01T15:08:09.6822463-07:00;False|2022-07-01T15:05:18.0832073-07:00;False|2022-07-01T14:59:50.8597477-07:00;False|2022-07-01T14:58:07.9366956-07:00;False|2022-07-01T14:58:01.5657463-07:00;True|2022-06-30T13:38:50.3309586-07:00;True|2022-06-30T13:37:12.3998842-07:00;False|2022-06-30T13:35:21.5988244-07:00;True|2022-06-28T17:29:12.9280299-07:00;False|2022-06-28T17:27:19.7752051-07:00;True|2022-06-26T23:35:01.8224637-07:00;False|2022-06-26T22:10:51.6237673-07:00;True|2022-06-25T03:07:08.5172991-07:00;True|2022-06-25T02:01:42.9967900-07:00;False|2022-06-25T02:00:24.7710629-07:00;True|2022-06-23T17:35:33.8488067-07:00;False|2022-06-23T17:32:55.9015796-07:00;True|2022-06-23T15:59:32.3572207-07:00;False|2022-06-23T15:57:39.1051917-07:00;False|2022-06-23T15:47:16.7883383-07:00;False|2022-06-23T15:45:40.9341020-07:00;False|2022-06-23T15:40:02.3885505-07:00;True|2022-06-23T15:12:46.0321151-07:00;False|2022-06-23T15:11:48.7274868-07:00;True|2022-06-23T15:05:34.9255811-07:00;False|2022-06-23T15:04:26.4390134-07:00;True|2022-06-23T14:48:24.7648827-07:00;False|2022-06-23T14:46:52.6878926-07:00;False|2022-06-23T14:45:52.7890854-07:00;True|2022-06-23T14:06:14.6399394-07:00;True|2022-06-23T02:01:33.3656017-07:00;True|2022-06-22T13:59:37.2294465-07:00;False|2022-06-22T13:58:00.4388054-07:00;True|2022-06-21T22:17:10.4965081-07:00;True|2022-06-21T22:01:09.8724915-07:00;False|2022-06-21T21:58:58.4651039-07:00;False|2022-06-21T21:57:01.9350872-07:00;False|2022-06-21T21:54:53.4172614-07:00;True|2022-06-21T21:49:31.2776550-07:00;False|2022-06-21T21:44:42.9884946-07:00;True|2022-06-21T19:24:25.9910217-07:00;True|2022-06-21T18:29:39.6665070-07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/19/2022 15:17:56</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/21/2022 18:18:53</publishTime>
+    </File>
+    <File Include="assets/styles.css">
+      <publishTime>07/15/2022 23:19:00</publishTime>
+    </File>
+    <File Include="BouncyCastle.Crypto.dll">
+      <publishTime>12/17/2020 13:32:28</publishTime>
+    </File>
+    <File Include="CorePush.dll">
+      <publishTime>10/02/2021 07:15:50</publishTime>
+    </File>
+    <File Include="DinkToPdf.dll">
+      <publishTime>04/18/2017 12:16:24</publishTime>
+    </File>
+    <File Include="Fifthyear.deps.json">
+      <publishTime>08/12/2022 17:17:02</publishTime>
+    </File>
+    <File Include="Fifthyear.dll">
+      <publishTime>08/12/2022 17:17:01</publishTime>
+    </File>
+    <File Include="Fifthyear.exe">
+      <publishTime>08/12/2022 17:17:01</publishTime>
+    </File>
+    <File Include="Fifthyear.pdb">
+      <publishTime>08/12/2022 17:17:01</publishTime>
+    </File>
+    <File Include="Fifthyear.runtimeconfig.json">
+      <publishTime>08/05/2022 12:25:57</publishTime>
+    </File>
+    <File Include="FirebaseAdmin.dll">
+      <publishTime>03/24/2022 12:12:42</publishTime>
+    </File>
+    <File Include="Google.Api.Gax.dll">
+      <publishTime>09/24/2020 05:17:24</publishTime>
+    </File>
+    <File Include="Google.Api.Gax.Rest.dll">
+      <publishTime>09/24/2020 05:17:30</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.dll">
+      <publishTime>08/17/2020 09:08:56</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>08/17/2020 09:09:04</publishTime>
+    </File>
+    <File Include="Google.Apis.Core.dll">
+      <publishTime>08/17/2020 09:08:52</publishTime>
+    </File>
+    <File Include="Google.Apis.dll">
+      <publishTime>08/17/2020 09:08:52</publishTime>
+    </File>
+    <File Include="hireme-c5c3a-firebase-adminsdk-raaqv-3a97010105.json">
+      <publishTime>07/22/2022 02:41:24</publishTime>
+    </File>
+    <File Include="hiring-9acee-firebase-adminsdk-1p871-b71691bd41.json">
+      <publishTime>05/11/2022 17:30:39</publishTime>
+    </File>
+    <File Include="itext.barcodes.dll">
+      <publishTime>06/22/2022 07:45:06</publishTime>
+    </File>
+    <File Include="itext.commons.dll">
+      <publishTime>06/22/2022 07:44:32</publishTime>
+    </File>
+    <File Include="itext.forms.dll">
+      <publishTime>06/22/2022 07:45:10</publishTime>
+    </File>
+    <File Include="itext.html2pdf.dll">
+      <publishTime>06/22/2022 08:33:56</publishTime>
+    </File>
+    <File Include="itext.io.dll">
+      <publishTime>06/22/2022 07:44:38</publishTime>
+    </File>
+    <File Include="itext.kernel.dll">
+      <publishTime>06/22/2022 07:45:02</publishTime>
+    </File>
+    <File Include="itext.layout.dll">
+      <publishTime>06/22/2022 07:45:08</publishTime>
+    </File>
+    <File Include="itext.pdfa.dll">
+      <publishTime>06/22/2022 07:45:08</publishTime>
+    </File>
+    <File Include="itext.sign.dll">
+      <publishTime>06/22/2022 07:45:18</publishTime>
+    </File>
+    <File Include="itext.styledxmlparser.dll">
+      <publishTime>06/22/2022 07:45:16</publishTime>
+    </File>
+    <File Include="itext.svg.dll">
+      <publishTime>06/22/2022 07:45:38</publishTime>
+    </File>
+    <File Include="libwkhtmltox.dll">
+      <publishTime>11/29/2020 05:08:56</publishTime>
+    </File>
+    <File Include="libwkhtmltox.dylib">
+      <publishTime>11/29/2020 05:11:43</publishTime>
+    </File>
+    <File Include="libwkhtmltox.so">
+      <publishTime>11/29/2020 05:14:01</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>10/26/2020 15:59:54</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>10/26/2020 15:57:32</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>10/26/2020 16:02:18</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>09/12/2019 19:28:44</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 16:24:48</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>11/08/2016 14:14:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>10/23/2020 23:39:40</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>10/23/2020 23:40:02</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>10/23/2020 23:40:08</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>10/23/2020 23:41:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>11/08/2016 14:14:04</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>05/18/2020 13:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>06/29/2020 18:04:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/29/2020 18:05:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/29/2020 18:06:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/29/2020 18:13:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/29/2020 18:09:50</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 13:14:12</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>11/27/2018 15:10:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 13:03:36</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqdds.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqgif.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqicns.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqico.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqjp2.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqjpeg.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqmng.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqsvg.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqtga.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqtiff.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqwbmp.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/imageformats/libqwebp.so">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libGL.so.1">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libicudata.so.55">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libicui18n.so.55">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libicuuc.so.55">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libjpeg.so.8">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libpng12.so.0">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Core.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5DBus.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Gui.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Multimedia.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5MultimediaWidgets.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Network.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5OpenGL.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Positioning.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5PrintSupport.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Qml.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Quick.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Sensors.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Sql.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Svg.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5WebChannel.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5WebKit.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5WebKitWidgets.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5Widgets.so.5">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libQt5XcbQpa.so.5">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libsqlite3.so.0">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/libstdc++.so.6">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/platforms/libqminimal.so">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/platforms/libqoffscreen.so">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/platforms/libqxcb.so">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesLinux/Syncfusion.WebKitWrapper">
+      <publishTime>06/30/2022 08:32:06</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqdds.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqgif.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqicns.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqico.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqjp2.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqjpeg.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqmng.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqsvg.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqtga.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqtiff.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqwbmp.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/imageformats/libqwebp.dylib">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libcrypto.1.0.0.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Core.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5DBus.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Gui.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Multimedia.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5MultimediaWidgets.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Network.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5OpenGL.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Positioning.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5PrintSupport.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Qml.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Quick.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Sensors.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Sql.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Svg.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5WebChannel.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5WebKit.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5WebKitWidgets.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libQt5Widgets.5.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/libssl.1.0.0.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/platforms/libqcocoa.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/platforms/libqminimal.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/platforms/libqoffscreen.dylib">
+      <publishTime>06/30/2022 08:34:34</publishTime>
+    </File>
+    <File Include="QtBinariesMac/Syncfusion.WebKitWrapper">
+      <publishTime>06/30/2022 08:33:28</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/icudt49.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/icuin49.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/icuuc49.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qdds.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qgif.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qicns.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qico.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qjp2.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qjpeg.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qmng.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qsvg.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qtga.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qtiff.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qwbmp.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/imageformats/qwebp.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/libEGL.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/libGLESv2.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/platforms/qminimal.dll">
+      <publishTime>06/30/2022 08:15:18</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/platforms/qoffscreen.dll">
+      <publishTime>06/30/2022 08:15:18</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/platforms/qwindows.dll">
+      <publishTime>06/30/2022 08:15:18</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Core.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Gui.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Multimedia.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5MultimediaWidgets.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Network.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5OpenGL.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Positioning.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5PrintSupport.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Qml.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Quick.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Sensors.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Sql.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Svg.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5WebChannel.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5WebKit.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5WebKitWidgets.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Qt5Widgets.dll">
+      <publishTime>06/30/2022 08:15:16</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/Syncfusion.WebKitWrapper">
+      <publishTime>06/30/2022 08:33:26</publishTime>
+    </File>
+    <File Include="QtBinariesWindows/zlib1.dll">
+      <publishTime>06/30/2022 08:15:50</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 16:25:12</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 13:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 13:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 13:35:06</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 13:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 13:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 13:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 13:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 13:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 16:24:48</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 00:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 00:53:46</publishTime>
+    </File>
+    <File Include="Select.Html.dep">
+      <publishTime>03/20/2022 23:55:20</publishTime>
+    </File>
+    <File Include="Select.HtmlToPdf.dll">
+      <publishTime>03/20/2022 23:55:22</publishTime>
+    </File>
+    <File Include="ServiceStack.Text.dll">
+      <publishTime>12/10/2017 06:53:52</publishTime>
+    </File>
+    <File Include="styles.css">
+      <publishTime>07/15/2022 23:19:00</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>03/07/2022 15:38:48</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>03/07/2022 15:39:06</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>03/07/2022 15:39:14</publishTime>
+    </File>
+    <File Include="Syncfusion.Compression.Portable.dll">
+      <publishTime>07/25/2022 04:16:30</publishTime>
+    </File>
+    <File Include="Syncfusion.HtmlConverter.Portable.dll">
+      <publishTime>07/25/2022 05:18:38</publishTime>
+    </File>
+    <File Include="Syncfusion.Licensing.dll">
+      <publishTime>07/25/2022 03:16:42</publishTime>
+    </File>
+    <File Include="Syncfusion.Pdf.Portable.dll">
+      <publishTime>07/25/2022 04:22:18</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 00:37:04</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/29/2020 18:03:46</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 00:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 00:37:42</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>08/12/2022 17:17:02</publishTime>
+    </File>
+    <File Include="wwwroot/css/styles.css">
+      <publishTime>07/15/2022 23:19:00</publishTime>
+    </File>
+    <File Include="wwwroot/images/15d7b088-a83d-44f4-87a5-0e2178d0bd78">
+      <publishTime>06/27/2022 15:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/images/2006750d-bfde-4bd6-913a-1ae871d8f819.png">
+      <publishTime>06/27/2022 20:40:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/476034ec-fc90-4a06-89e6-d7fe6166bb27.jpg">
+      <publishTime>07/03/2022 03:38:56</publishTime>
+    </File>
+    <File Include="wwwroot/images/5891f46b-ba16-4f00-98c0-dbc0e5d931bb.jpg">
+      <publishTime>06/27/2022 20:22:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/616fae28-ce99-4b9a-83af-cdf96971b034.jpg">
+      <publishTime>07/07/2022 17:03:22</publishTime>
+    </File>
+    <File Include="wwwroot/images/7e85dd0e-e299-4b01-8fb5-c97457803182">
+      <publishTime>06/27/2022 15:44:27</publishTime>
+    </File>
+    <File Include="wwwroot/images/87316bf6-f2ab-41f7-a915-61c343c7dbed">
+      <publishTime>07/01/2022 14:28:25</publishTime>
+    </File>
+    <File Include="wwwroot/images/88806413-2a2e-466e-b0e9-a88199402e88">
+      <publishTime>07/01/2022 14:28:29</publishTime>
+    </File>
+    <File Include="wwwroot/images/91786e46-65cd-43fe-a9f9-9030b697bc61.jpg">
+      <publishTime>07/03/2022 03:35:28</publishTime>
+    </File>
+    <File Include="wwwroot/images/bf0efec8-5c48-4ccd-9a58-afc290ac5816.jpg">
+      <publishTime>06/27/2022 20:27:05</publishTime>
+    </File>
+    <File Include="wwwroot/images/d0287da2-ce3b-4a3c-ba4e-c70e1486fee2.jpg">
+      <publishTime>07/03/2022 03:42:01</publishTime>
+    </File>
+    <File Include="wwwroot/images/dd.jpg">
+      <publishTime>11/05/2021 12:30:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/e184a416-d636-4c41-9e41-683012e17855.jpg">
+      <publishTime>07/12/2022 22:19:32</publishTime>
+    </File>
+    <File Include="wwwroot/pdffiles/Backend Debeloper.pdf">
+      <publishTime>07/21/2022 01:47:38</publishTime>
+    </File>
+    <File Include="wwwroot/pdffiles/title.pdf">
+      <publishTime>08/06/2022 07:44:02</publishTime>
+    </File>
+    <File Include="wwwroot/styles.css">
+      <publishTime>07/15/2022 23:19:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
